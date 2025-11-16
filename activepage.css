@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background: linear-gradient(135deg, #eeff39 0%, #c26903 100%);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0 10px 15px rgba(92, 11, 11, 0.2);
+}
+
+.hero h1 {
+     font-size: 3rem;
+     font-weight: bold;
+}
+
+.card img {
+    border-radius: 12px 12px 0 0;
+}
+
+footer {
+    background-color: #212529;
+    color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hbtn{
+    background-color: #ff6a00;
+    color: #212554;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.custom-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.sfooter {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #1a1d45;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.sfooter a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+.sfooter a:hover {
+    text-decoration: underline;
+}
+.flinks {
+    margin-top: 8px;
+}
+
+.container input,
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 18px 0;
+    border: 2px solid rgba(0, 0, 0, 0.181);
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.1);
+    color: rgb(0, 0, 0);
+}
+
+.container label {
+    font-weight: bold;
+    display: block;
+}
+
+.hbtn {
+    width: 100%;
+}
+
+.sform1, .sform2 {
+    display: inline-block;
+    width: 49%;
+}
